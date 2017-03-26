@@ -9,7 +9,6 @@
  */
 
 #include <stdio.h>
-#include <stdlib.h>
 
 int gcd(int p, int q);
 
@@ -18,8 +17,6 @@ int main() {
 
     scanf("%d%d", &p, &q);
     printf("GCD a and b: %d\n", gcd(p, q));
-
-    system("PAUSE");
 
     return 0;
 }
