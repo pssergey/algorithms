@@ -6,7 +6,6 @@
  */
 
  #include <stdio.h>
- #include <stdlib.h>
 
  int gcd(int a, int b);
 
@@ -15,8 +14,6 @@
 
     scanf("%d%d", &a, &b);
     printf("GCD a and b: %d\n", gcd(a, b));
-
-    system("PAUSE");
 
     return 0;
  }
